@@ -22,7 +22,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-congig.py
 
 # Virtual environment
 .env
@@ -46,4 +45,4 @@ venv.bak/
 # If you plan to store your API key directly in config.py and might
 # push this to a public repository later, uncomment the line below.
 # For now, if it's just local, you might leave it commented out.
-# config.py
+config.py
