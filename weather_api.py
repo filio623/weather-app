@@ -1,5 +1,5 @@
 import requests
-from config import API_KEY
+from config import API_KEY, DEFAULT_UNITS
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
@@ -20,7 +20,7 @@ def get_weather_data(city_name):
     params ={
         'q': city_name,
         'appid': API_KEY,
-        'units': 'imperial'
+        'units': DEFAULT_UNITS
     }
 
     try:
