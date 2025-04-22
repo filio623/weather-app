@@ -1,0 +1,15 @@
+# config.py.example
+# Configuration settings for the Weather App
+
+# --- OpenWeatherMap API Key ---
+# This application requires an API key from OpenWeatherMap.org to fetch weather data.
+# You can get a free API key by signing up here:
+# https://openweathermap.org/appid
+
+# Once you have obtained your key, replace the placeholder string below with your actual key.
+API_KEY = "YOUR_OPENWEATHERMAP_API_KEY_HERE"
+
+# --- Optional Settings (Future examples) ---
+# If you add more settings later, document them here too.
+# e.g., Default measurement units ('metric' for Celsius, 'imperial' for Fahrenheit)
+# DEFAULT_UNITS = "metric"
